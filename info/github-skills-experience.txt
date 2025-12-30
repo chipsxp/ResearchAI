@@ -1,0 +1,195 @@
+
+Jimmy Burns (pluckCode)
+chipsxp · he/him
+AI SaaS full stack developer specializing in Javascript and Python languages. Maintains cutting-edge solutions by leveraging AI & Web API libraries.
+ 50 followers · 130 following
+ChipsXP
+Florida
+chips_xp@yahoo.com
+chipsxp.com
+in/chipsxp
+https://chipsxp.com
+https://sketchfab.com/chipsxp-pluckcode/models
+NFTDigitalAssets
+Achievements
+Achievement: Pull Shark
+Organizations
+@Galaxies-dev
+Find a repository…
+Sanity-Drag-Drop-CMS Private
+Content management system from Sanity embedded in Next JS framework. Has Presentation, Structure, AI, and Vision in studio.
+ TypeScript Updated 3 days ago
+nextjs-sanity Public
+Next.js + Sanity Studio Blog Project A modern, full-stack blog application built with Next.js 15 and Sanity Studio, featuring embedded content management, responsive design, and optimized performance.
+cms
+embedded
+sanity-studio
+sanitycms
+nextjs15
+ TypeScript  2 Updated 4 days ago
+StackBolt Public template
+Forked from stackblitz-labs/bolt.diy
+Prompt, run, edit, and deploy full-stack web applications using any LLM you want!
+ TypeScript  1  1 MIT License Updated 2 weeks ago
+ChipsXP-Substack Private
+Private repository for ChipsXP Substack content - independent from chipsxp-splash-page
+ Astro Updated 3 weeks ago
+chipsxp-splash-page Public
+Research projects, and development portfolio website application designed to showcase articles and posts on various topics in two categories, research and advance. Built with Astro 5.1, this applic…
+content
+development
+research
+creation
+astrojs
+ Astro  1 Updated last month
+My-Clines-Custom-MCP-Server-Tools Public
+My Cline's Custom MCP Server Tools - A comprehensive collection of 10 custom MCP (Model Context Protocol) servers designed to extend Cline's capabilities with various web services, development tool…
+settings
+json
+tools
+cline
+mcp-servers
+ Go  1 Updated last month
+Easy-Diffusion Public
+Forked from easydiffusion/easydiffusion
+Easiest 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, a…
+ JavaScript Other Updated on Aug 27
+aframejs-3dmodels Public
+This application showcases a collection of 3D models using the A-Frame framework. The primary goal is to demonstrate how to integrate 3D models into web applications and apply interactive UI elemen…
+javascript
+css
+html
+a-frame
+glb
+3d-models
+gltf2
+ JavaScript  1 Updated on Aug 26
+AiderAI Public
+Aider Configuration Setup This repository contains configuration and scripts to easily launch Aider, with dual LLM coding assistances running simultaneously on dual browsers. Required Files config.…
+automation
+code-analyzer
+ai-chat
+aider
+dual-llm
+dual-agent-coding
+dual-browsers
+ PowerShell  2 Updated on Aug 24
+FireFrame Public
+FireFrame Share - A modern social media platform built with Next.js and Supabase, featuring real-time posts, user authentication, and a sleek user interface.
+react-router
+image-sharing
+supabase
+supabase-js
+supabase-auth
+supabase-db
+shadcn-ui
+ TypeScript  1 Updated on Aug 23
+karaoke-events-one Public
+The Karaoke Events Platform represents a sophisticated, production-ready event management system specifically engineered for the karaoke entertainment industry. Built with cutting-edge web technolo…
+mongodb
+mongoose
+karaoke-application
+mongodb-atlas
+clerk
+shadcn-ui
+nextjs14
+ TypeScript  1 GNU General Public License v2.0 Updated on Aug 14
+pdf-questions Public
+Upload a PDF and ask questions about its content
+ TypeScript Updated on Jul 25
+riddle-me-this-ai-game Public
+- AI-generated unique riddles using Google's Gemini API - Single-player and two-player game modes - Strategic clue system that affects scoring - Real-time answer evaluation - Progressive difficulty…
+react
+ai
+gemini
+riddles
+riddle-game
+gemini-api
+vitejs
+ TypeScript  1 Updated on Jun 2
+AI-Assistant-3D-Ecommerce Public
+An innovative platform that combines 3D visualization technology with AI-generated designs to revolutionize apparel customization. This application enables users to create unique, personalized clot…
+ JavaScript  3 MIT License Updated on May 30
+ai-image-analyzer Public
+The AI Image Analyzer is a web application that allows users to upload images and ask questions about them, receiving an AI-generated analysis in response. It features a user-friendly interface wit…
+google
+nextjs
+tailwindcss
+google-ai-platform
+shadcn-ui
+vercel-ai-sdk
+gemini-ai
+ TypeScript  1 Updated on May 18
+Digital-Generative-Art-Visualizer Public
+This project creates an evolving digital canvas where geometric shapes (lines and rectangles) are randomly generated with varying properties such as position, size, color, and stroke width. The res…
+visualization
+png
+interactive
+dynamic
+generative-art
+canvas2d
+snapshots
+ JavaScript  1 Updated on May 13
+Flow_Field_Patterns Public
+This project creates an animated visual effect where thousands of particles move through a mathematically generated flow field, leaving colorful trails that form organic, fluid-like patterns. The r…
+effects
+particles
+2d-graphics
+flowfield-animation
+ JavaScript  1 GNU General Public License v2.0 Updated on May 13
+Responsive-CSS-HTML-Bootstrap-5.3 Public
+This project demonstrates responsive web design principles using HTML5, CSS3, and Bootstrap 5.3. It features a mobile-first approach with adaptive layouts that respond to different screen sizes whi…
+semantic
+navigation
+navbar
+responsive-design
+mobile-development
+hover-effects
+bootstrap5
+ HTML  1 GNU Affero General Public License v3.0 Updated on May 13
+design-copier Public
+This is a TypeScript-based MCP server that implements a web design copying system. It allows you to: - Capture webpage styles and HTML structure - Extract and convert CSS to Tailwind classes - Appl…
+css
+html
+mcp
+tailwindcss
+mcp-server
+ JavaScript  4  1 Updated on May 12
+jumbotron-card-page Public
+This project provides a complete Bootstrap header design with responsive navigation menu buttons that work down to 768px width. The footer uses CSS Flex with dropdown columns for data entry forms. …
+wordpress-development
+css-grid
+columns
+responsive-design
+css-flexbox
+jumbotron
+bootstrap5
+ Hack  1 GNU General Public License v3.0 Updated on May 12
+viewport-control Public
+viewport-control is a TypeScript-based MCP server that enables advanced browser automation for viewport management, screenshot capture, and content extraction. It is designed for integration with M…
+api
+screenshot
+typescript
+viewport
+puppeteer
+mcp-server
+ TypeScript  1 Updated on May 12
+Pokemon-Search-with-Brock-Pewter-City-Gym-Trainer Public
+Created with StackBlitz ⚡️Coded in NativeScript NativeScript provides platform APIs directly to the JavaScript runtime (with strong types) for a rich TypeScript development experience.
+pokemon
+nativescript
+stackblitz
+ TypeScript  1 Updated on Mar 29
+AI-SaaS-Assistant Public
+Five AI function sections for an Office Personal Data Assistant (OPDA) in Conversations, Coding, Images and Video Production, Music Composing, and Tech Support Chat.
+support-chat
+text-to-image
+conversational-ai
+text-to-video
+text-to-music
+text-to-code
+ TypeScript  5 GNU General Public License v2.0 Updated on Mar 12
+StableStudio Public
+Forked from Stability-AI/StableStudio
+Community interface for generative AI
+ TypeScript MIT License Updated on Sep 19, 2023

@@ -1,0 +1,23 @@
+{
+  "name": "researchai-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["api", "express", "openai", "supabase", "embeddings"],
+  "author": "pluckCode",
+  "license": "MIT",
+  "description": "ResearchAI Backend API Server",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "openai": "^6.15.0",
+    "postgres": "^3.4.7",
+    "socket.io": "^4.8.1"
+  }
+}

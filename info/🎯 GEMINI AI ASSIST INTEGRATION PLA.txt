@@ -1,0 +1,128 @@
+🎯 GEMINI AI ASSIST INTEGRATION PLAN
+Adding AI Content Generation to Posts & Pages
+Status: ✅ Ready to Implement (Gemini API already configured!)
+Estimated Time: 30-45 minutes
+Cost: Already covered by existing Gemini API (~$3-30/month)
+
+📊 CURRENT STATE ANALYSIS
+✅ Already Implemented
+Gemini API Setup ✅
+API key configured: GEMINI_API_KEY
+Model selected: gemini-2.5-flash
+API route exists: src/app/api/ai/gemini/route.ts
+AI context file: src/sanity/plugins/ai-instructions/ai-context.txt
+GeminiAIAssist Component ✅
+Location: src/sanity/plugins/GeminiAIAssist.tsx
+Features: Improve, Expand, Summarize, Fix Grammar
+Works with: string and text fields
+Enhanced Block Content ✅
+Rich text editor with H1-H6, lists, colors, etc.
+Location: src/sanity/schemaTypes/blockContentType.ts
+❌ NOT YET IMPLEMENTED
+AI Assist on Post Title ❌
+AI Assist on Post Body (blockContent) ❌
+AI Assist on Page Title ❌
+AI Assist on Page Content (pageBuilder) ❌
+
+🎯 IMPLEMENTATION PLAN
+PHASE 1: Add AI to Post Schema (10 minutes)
+File: src/sanity/schemaTypes/postType.ts
+
+Changes:
+Import GeminiAIAssist component
+Add AI to title field
+Add AI to body field (blockContent)
+
+Code Changes:
+// Add import at top
+import { GeminiAIAssist } from "@/sanity/plugins/GeminiAIAssist";
+
+// Update title field
+defineField({
+  name: "title",
+  type: "string",
+  components: {
+    input: GeminiAIAssist, // ← ADD THIS
+  },
+}),
+
+// body field already uses blockContent type
+// We'll enhance blockContent in Phase 3
+Result: ✅ Post titles get AI suggestions
+
+PHASE 2: Add AI to Page Schema (10 minutes)
+File: src/sanity/schemaTypes/pageType.ts
+
+Changes:
+
+Import GeminiAIAssist component
+Add AI to title field
+
+Code Changes:
+// Add import at top
+import { GeminiAIAssist } from "@/sanity/plugins/GeminiAIAssist";
+
+// Update title field
+defineField({
+  name: "title",
+  type: "string",
+  components: {
+    input: GeminiAIAssist, // ← ADD THIS
+  },
+}),
+
+// body field already uses blockContent type
+// We'll enhance blockContent in Phase 3
+
+Result: ✅ Page titles get AI suggestions
+
+PHASE 3: Create AI-Enhanced Block Content Component (15 minutes)
+Problem: The current GeminiAIAssist only works with simple string and text fields, NOT with complex blockContent (Portable Text).
+
+Solution: Create a new component specifically for Portable Text blocks.
+
+New File: src/sanity/plugins/GeminiBlockContentAssist.tsx
+
+Features:
+
+AI button in Portable Text toolbar
+Generate content from prompt
+Improve selected text
+Expand on ideas
+Summarize long paragraphs
+Fix grammar in blocks
+
+Integration:
+// In blockContentType.ts
+import { GeminiBlockContentAssist } from "@/sanity/plugins/GeminiBlockContentAssist";
+
+export const blockContentType = defineType({
+  title: "Block Content",
+  name: "blockContent",
+  type: "array",
+  components: {
+    input: GeminiBlockContentAssist, // ← ADD THIS
+  },
+  of: [
+    // ... existing config
+  ],
+});
+
+Result: ✅ Rich text editor gets AI toolbar button
+
+PHASE 4: Add AI to Two-Column Page (5 minutes)
+File: src/sanity/schemaTypes/twoColumnPageType.ts
+
+Changes:
+import { GeminiAIAssist } from "@/sanity/plugins/GeminiAIAssist";
+
+defineField({
+  name: "title",
+  type: "string",
+  components: {
+    input: GeminiAIAssist, // ← ADD THIS
+  },
+  validation: (Rule) => Rule.required(),
+}),
+
+Result: ✅ Two-column page titles get AI suggestions

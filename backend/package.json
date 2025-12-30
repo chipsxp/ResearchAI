@@ -5,9 +5,16 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "build": "npm install --omit=dev"
   },
-  "keywords": ["api", "express", "openai", "supabase", "embeddings"],
+  "keywords": [
+    "api",
+    "express",
+    "openai",
+    "supabase",
+    "embeddings"
+  ],
   "author": "pluckCode",
   "license": "MIT",
   "description": "ResearchAI Backend API Server",
